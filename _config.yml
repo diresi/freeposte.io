@@ -2,7 +2,6 @@
 title:        Freeposte.io
 tagline:      Simple yet full-featured mail server as a set of Docker images
 baseurl:      ""
-paginate:     1
 
 # About/contact
 author:
@@ -11,8 +10,8 @@ author:
 
 # Main links
 links:
-  documentaiton: https://github.com/kaiyou/freeposte.io/wiki
-  setup:      https://github.com/kaiyou/freeposte.io/blob/master/INSTALL.md
+  doc:        https://github.com/kaiyou/freeposte.io/wiki
+  setup:      https://github.com/kaiyou/freeposte.io/wiki/Setup-Guide
   github:     https://github.com/kaiyou/freeposte.io
 
 # Gems
