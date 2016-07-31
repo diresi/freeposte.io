@@ -1,7 +1,7 @@
 ---
 layout: default
 title:  "Freeposte.io 1.1.0 is out!"
-date:   2016-02-12 17:50:00
+date:   2016-07-31 17:50:00
 ---
 When we started the Freeposte.io adventure back in December, we weren't quite
 sure the project would lead to anything but a bunch of scripts to manage our
