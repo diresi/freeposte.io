@@ -11,6 +11,8 @@ author:
 
 # Main links
 links:
+  documentaiton: https://github.com/kaiyou/freeposte.io/wiki
+  setup:      https://github.com/kaiyou/freeposte.io/blob/master/INSTALL.md
   github:     https://github.com/kaiyou/freeposte.io
 
 # Gems
