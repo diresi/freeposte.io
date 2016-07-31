@@ -1,0 +1,21 @@
+# Setup
+title:        Freeposte.io
+tagline:      Simple yet full-featured mail server as a set of Docker images
+baseurl:      ""
+paginate:     1
+
+# About/contact
+author:
+  name:       kaiyou
+  url:        https://kaiyou.fr
+
+# Main links
+links:
+  github:     https://github.com/kaiyou/freeposte.io
+
+# Gems
+gems:
+  - jekyll-paginate
+
+#Others
+markdown: kramdown
