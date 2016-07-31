@@ -40,4 +40,4 @@ Main features include:
 - [Checking the server and containers status](screenshots/status.png)
 - [Listing and managing domains](screenshots/domains.png)
 - [Creating a new user on a managed domain](screenshots/create.png)
-- [Managing a domain DKIM keys and DNS records](screenshots/vacation.png)
+- [Managing a domain DKIM keys and DNS records](screenshots/dkim.png)
