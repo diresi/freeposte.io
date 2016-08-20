@@ -2,6 +2,9 @@
 title:        Freeposte.io
 tagline:      Simple yet full-featured mail server as a set of Docker images
 baseurl:      ""
+exclude:
+  - Gemfile
+  - Gemfile.lock
 
 # About/contact
 author:
