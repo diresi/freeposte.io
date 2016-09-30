@@ -78,7 +78,7 @@ def user_settings(user_email):
         form.populate_obj(user)
         db.session.commit()
         flask.flash('Settings updated for %s' % user)
-        if user_email:
+        if user_email and user.global_admin:
             return flask.redirect(
                 flask.url_for('.user_list', domain_name=user.domain.name))
     return flask.render_template('user/settings.html', form=form, user=user)
@@ -98,7 +98,7 @@ def user_password(user_email):
             user.set_password(form.pw.data)
             db.session.commit()
             flask.flash('Password updated for %s' % user)
-            if user_email:
+            if user_email and user.global_admin:
                 return flask.redirect(flask.url_for('.user_list',
                     domain_name=user.domain.name))
     return flask.render_template('user/password.html', form=form, user=user)
@@ -115,7 +115,7 @@ def user_forward(user_email):
         form.populate_obj(user)
         db.session.commit()
         flask.flash('Forward destination updated for %s' % user)
-        if user_email:
+        if user_email and user.global_admin:
             return flask.redirect(
                 flask.url_for('.user_list', domain_name=user.domain.name))
     return flask.render_template('user/forward.html', form=form, user=user)
@@ -132,7 +132,7 @@ def user_reply(user_email):
         form.populate_obj(user)
         db.session.commit()
         flask.flash('Auto-reply message updated for %s' % user)
-        if user_email:
+        if user_email and user.global_admin:
             return flask.redirect(
                 flask.url_for('.user_list', domain_name=user.domain.name))
     return flask.render_template('user/reply.html', form=form, user=user)
